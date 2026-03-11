@@ -2,16 +2,18 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import EmployeeDashboard from './components/dashboard/EmployeeDashboard'
+import Login from './components/auth/Login'
+import AdminDashboard from './components/dashboard/AdminDashboard'
 function App() {
-  const [count, setCount] = useState(0)
-
+ 
+localStorage.clear()
   return (
-    <>
-       <h1 className="text-3xl font-bold underline">
-      Hello Raj 🚀
-    </h1>
-    </>
+ <>
+{/* <AdminDashboard/> */}
+     <Login/>
+    <EmployeeDashboard/>
+ </>
   )
 }
 
