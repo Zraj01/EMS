@@ -1,8 +1,17 @@
 const employees = [
   {
     id: 1,
+    name: "Rahul Sharma",
     email: "employee1@example.com",
     password: "123",
+
+    taskCount: {
+      newTask: 1,
+      active: 1,
+      completed: 1,
+      failed: 0
+    },
+
     tasks: [
       {
         title: "Create Login Page",
@@ -39,8 +48,17 @@ const employees = [
 
   {
     id: 2,
+    name: "Amit Verma",
     email: "employee2@example.com",
     password: "123",
+
+    taskCount: {
+      newTask: 1,
+      active: 1,
+      completed: 1,
+      failed: 0
+    },
+
     tasks: [
       {
         title: "Create Dashboard UI",
@@ -77,8 +95,17 @@ const employees = [
 
   {
     id: 3,
+    name: "Sarthak Singh",
     email: "employee3@example.com",
     password: "123",
+
+    taskCount: {
+      newTask: 1,
+      active: 1,
+      completed: 1,
+      failed: 0
+    },
+
     tasks: [
       {
         title: "Create Profile Page",
@@ -115,8 +142,17 @@ const employees = [
 
   {
     id: 4,
+    name: "Neha Gupta",
     email: "employee4@example.com",
     password: "123",
+
+    taskCount: {
+      newTask: 1,
+      active: 1,
+      completed: 1,
+      failed: 0
+    },
+
     tasks: [
       {
         title: "Create Landing Page",
@@ -150,19 +186,23 @@ const employees = [
       }
     ]
   }
-];
+]
+
 const admin = {
   id: 0,
+  name: "Admin",
   email: "admin@example.com",
   password: "admin123"
 };
 
-export const setlocalstorage =()=>{
-    localStorage.setItem('employees',JSON.stringify(employees))
-    localStorage.setItem('admin',JSON.stringify('admin'))
-}
-export const getlocalstorage =()=>{
-  const employees=localStorage.getItem('employees')
-  const admin=localStorage.getItem("admin");
-  return {employees,admin}
-}
+export const setlocalstorage = () => {
+  localStorage.setItem("employees", JSON.stringify(employees));
+  localStorage.setItem("admin", JSON.stringify(admin));
+};
+
+export const getlocalstorage = () => {
+  const employees = JSON.parse(localStorage.getItem("employees"));
+  const admin = JSON.parse(localStorage.getItem("admin"));
+
+  return { employees, admin };
+};

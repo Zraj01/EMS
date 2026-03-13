@@ -2,13 +2,16 @@ import React from 'react'
 import Tasknumber from '../other/Tasknumber'
 import Header from '../other/Header'
 import Tasklists from '../tasklist/Tasklists'
-const EmployeeDashboard = () => {
+
+const EmployeeDashboard = (props) => {
+
+
   return (
-     <> 
-     <Header></Header>
-     <Tasknumber></Tasknumber>
-      <Tasklists></Tasklists>
-     </>
+    <>
+      <Header name={props.employeedata.name}></Header>
+      <Tasknumber data={props.employeedata}></Tasknumber>
+      <Tasklists data={props.employeedata}></Tasklists>
+    </>
   )
 }
 
