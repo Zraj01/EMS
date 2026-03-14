@@ -8,7 +8,7 @@ const Header = (props) => {
         HELLO 
       </h1>
 
-      <button className="bg-red-500 px-5 py-2 rounded-lg hover:bg-red-600 transition cursor-pointer">
+      <button >
         Logout
       </button>
 
