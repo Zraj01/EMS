@@ -4,7 +4,7 @@ const Header = (props) => {
   return (
     <div className="flex items-center justify-between bg-black text-white px-10 py-4">
 
-      <h1 className="text-2xl font-semibold">
+      <h1 >
         HELLO 
       </h1>
 
