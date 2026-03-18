@@ -9,7 +9,7 @@ const Header = (props) => {
       </h1>
 
       <button >
-        Logouta
+        Logoutatt
       </button>
 
     </div>
