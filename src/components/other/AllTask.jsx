@@ -37,7 +37,7 @@ const AllTask = () => {
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
             <p>Sarthak</p>
             <p>Make a UI Design</p>
-            <p className="text-blue-400">In Progress</p>
+            <p className="text-blue-400">Progress</p>
           </div>
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
