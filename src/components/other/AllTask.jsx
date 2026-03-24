@@ -23,19 +23,19 @@ const AllTask = () => {
           </div>
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
-            <p>Sarthak</p>
+            <p>Sak</p>
             <p>Make a UI Design</p>
             <p className="text-green-400">Completed</p>
           </div>
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
-            <p>Sarthak</p>
+            <p>Sak</p>
             <p>Make a UI Design</p>
             <p className="text-red-400">Failed</p>
           </div>
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
-            <p>Sarthak</p>
+            <p>Sar</p>
             <p>Make a UI Design</p>
             <p className="text-blue-400">Progress</p>
           </div>
