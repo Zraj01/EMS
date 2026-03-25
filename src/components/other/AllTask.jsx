@@ -36,13 +36,13 @@ const AllTask = () => {
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
             <p>Sar</p>
-            <p>Make a UI Design</p>
+            <p>Ma Design</p>
             <p className="text-blue-400">Progress</p>
           </div>
 
           <div className="grid grid-cols-3 text-gray-300 py-2 border-b border-zinc-800">
             <p>Sarthak</p>
-            <p>Make a UI Design</p>
+            <p>MakI Design</p>
             <p className="text-yellow-400">Pending</p>
           </div>
 
