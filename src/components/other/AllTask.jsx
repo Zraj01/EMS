@@ -8,9 +8,9 @@ const AllTask = () => {
 
   
         <div className="grid grid-cols-3 text-white font-semibold border-b border-zinc-700 pb-3">
-          <h2>Name</h2>
-          <h2>Task</h2>
-          <h2>Status</h2>
+          <h2>N</h2>
+          <h2>Ta</h2>
+          <h2>atus</h2>
         </div>
 
        
